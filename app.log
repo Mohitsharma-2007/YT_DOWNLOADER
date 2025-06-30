@@ -1,0 +1,188 @@
+2025-05-12 22:17:22,684 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:17:22,709 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:17:56,829 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.233.189:5000
+2025-05-12 22:17:56,829 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 22:17:56,834 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:17:57,666 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:17:57,686 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:19:33,065 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.233.189:5000
+2025-05-12 22:19:33,069 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 22:19:33,073 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:19:33,803 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:19:33,821 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:19:35,549 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:19:35] "GET / HTTP/1.1" 200 -
+2025-05-12 22:19:55,279 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:19:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:19:55,322 - __main__ - ERROR - Error getting video info: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:19:55,324 - __main__ - ERROR - PytubeError: Failed to fetch video information: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:19:55,357 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:19:55] "GET /select_quality?url=https://youtu.be/iikeolFFinM?si%3DJkNVMnTgsNVoElXV HTTP/1.1" 200 -
+2025-05-12 22:19:57,723 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:19:57] "GET / HTTP/1.1" 200 -
+2025-05-12 22:20:01,130 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:20:01,265 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:20:01,876 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:01] "GET /search?query=https://youtu.be/iikeolFFinM?si%3DJkNVMnTgsNVoElXV HTTP/1.1" 200 -
+2025-05-12 22:20:02,169 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:02] "GET /search?query=https://youtu.be/iikeolFFinM?si%3DJkNVMnTgsNVoElXV HTTP/1.1" 200 -
+2025-05-12 22:20:08,734 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:20:09,453 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:09] "GET /search?query=https://youtu.be/iikeolFFinM?si%3DJkNVMnTgsNVoElXV HTTP/1.1" 200 -
+2025-05-12 22:20:15,812 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:20:17,467 - __main__ - ERROR - Search error: HTTP Error 400: Bad Request
+2025-05-12 22:20:17,469 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:17] "GET /search?query=https://www.youtube.com/watch?v%3DiikeolFFinM HTTP/1.1" 200 -
+2025-05-12 22:20:20,130 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:20] "GET / HTTP/1.1" 200 -
+2025-05-12 22:20:24,720 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:24] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:20:26,298 - __main__ - ERROR - Search error: HTTP Error 400: Bad Request
+2025-05-12 22:20:26,300 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:26] "GET /search?query=https://www.youtube.com/watch?v%3DiikeolFFinM HTTP/1.1" 200 -
+2025-05-12 22:20:28,848 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:20:28] "GET / HTTP/1.1" 200 -
+2025-05-12 22:30:06,522 - werkzeug - INFO -  * Detected change in 'D:\\YT_DOWNLOADER\\app.py', reloading
+2025-05-12 22:30:07,227 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:30:22,579 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:30:22,617 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:36:28,806 - werkzeug - INFO -  * Detected change in 'D:\\YT_DOWNLOADER\\app.py', reloading
+2025-05-12 22:36:29,847 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:36:37,490 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:36:37,531 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:36:41,537 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.233.189:5000
+2025-05-12 22:36:41,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 22:36:41,540 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:36:42,987 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:36:43,012 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:37:41,829 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:37:41] "GET / HTTP/1.1" 200 -
+2025-05-12 22:38:03,437 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:38:03] "GET / HTTP/1.1" 200 -
+2025-05-12 22:39:32,569 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:39:32] "GET / HTTP/1.1" 200 -
+2025-05-12 22:39:40,394 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:39:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:39:43,198 - __main__ - ERROR - Search error: HTTP Error 400: Bad Request
+2025-05-12 22:39:43,229 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:39:43] "GET /search?query=https://www.youtube.com/watch?v%3Dd2FrFkwlBuM HTTP/1.1" 200 -
+2025-05-12 22:39:44,679 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:39:44] "GET / HTTP/1.1" 200 -
+2025-05-12 22:39:48,575 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:39:48] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:39:48,596 - __main__ - INFO - Attempting to fetch video info with pytube: https://www.youtube.com/watch?v=d2FrFkwlBuM
+2025-05-12 22:39:48,596 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:39:48,597 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://www.youtube.com/watch?v=d2FrFkwlBuM
+2025-05-12 22:40:08,900 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:40:08] "GET /select_quality?url=https://www.youtube.com/watch?v%3Dd2FrFkwlBuM HTTP/1.1" 200 -
+2025-05-12 22:40:26,818 - __main__ - INFO - Attempting to fetch audio streams with pytube: https://www.youtube.com/watch?v=d2FrFkwlBuM
+2025-05-12 22:40:26,819 - __main__ - WARNING - Pytube audio error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:40:26,820 - __main__ - INFO - Attempting to fetch audio streams with yt-dlp: https://www.youtube.com/watch?v=d2FrFkwlBuM
+2025-05-12 22:40:42,776 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:40:42] "GET /audio_only/https://www.youtube.com/watch%3Fv=d2FrFkwlBuM HTTP/1.1" 200 -
+2025-05-12 22:40:50,087 - __main__ - INFO - Attempting to fetch video info with pytube: https://www.youtube.com/watch?v=d2FrFkwlBuM
+2025-05-12 22:40:50,088 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:40:50,088 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://www.youtube.com/watch?v=d2FrFkwlBuM
+2025-05-12 22:41:06,624 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:41:06] "GET /select_quality?url=https://www.youtube.com/watch?v%3Dd2FrFkwlBuM HTTP/1.1" 200 -
+2025-05-12 22:41:50,737 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:41:50] "GET / HTTP/1.1" 200 -
+2025-05-12 22:41:55,311 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:41:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:42:01,074 - __main__ - ERROR - Search error: HTTP Error 400: Bad Request
+2025-05-12 22:42:01,076 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:42:01] "GET /search?query=https://www.youtube.com/watch?v%3Dd2FrFkwlBuM HTTP/1.1" 200 -
+2025-05-12 22:42:12,331 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:42:12] "GET / HTTP/1.1" 200 -
+2025-05-12 22:45:42,053 - werkzeug - INFO -  * Detected change in 'D:\\YT_DOWNLOADER\\app.py', reloading
+2025-05-12 22:45:42,924 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:46:02,937 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:46:02,964 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:46:30,296 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:30] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:32,542 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:32] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:33,262 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:33] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:33,477 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:33] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:33,708 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:33] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:33,910 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:33] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:34,134 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:34] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:34,359 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:34] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:34,572 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:34] "GET / HTTP/1.1" 200 -
+2025-05-12 22:46:34,779 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:46:34] "GET / HTTP/1.1" 200 -
+2025-05-12 22:48:12,707 - werkzeug - INFO -  * Detected change in 'D:\\YT_DOWNLOADER\\app.py', reloading
+2025-05-12 22:48:14,716 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:48:27,237 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:48:27,268 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:48:27,310 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:48:27] "GET / HTTP/1.1" 200 -
+2025-05-12 22:48:29,041 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.233.189:5000
+2025-05-12 22:48:29,041 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 22:48:29,046 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 22:48:34,335 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 22:48:34,357 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 22:48:42,918 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:48:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:48:51,637 - pytube.contrib.search - WARNING - Unexpected renderer encountered.
+2025-05-12 22:48:51,640 - pytube.contrib.search - WARNING - Renderer name: dict_keys(['reelShelfRenderer'])
+2025-05-12 22:48:51,640 - pytube.contrib.search - WARNING - Search term: hello world
+2025-05-12 22:48:51,641 - pytube.contrib.search - WARNING - Please open an issue at https://github.com/pytube/pytube/issues and provide this log output.
+2025-05-12 22:48:51,642 - pytube.contrib.search - WARNING - Unexpected renderer encountered.
+2025-05-12 22:48:51,643 - pytube.contrib.search - WARNING - Renderer name: dict_keys(['reelShelfRenderer'])
+2025-05-12 22:48:51,644 - pytube.contrib.search - WARNING - Search term: hello world
+2025-05-12 22:48:51,646 - pytube.contrib.search - WARNING - Please open an issue at https://github.com/pytube/pytube/issues and provide this log output.
+2025-05-12 22:48:51,647 - pytube.contrib.search - WARNING - Unexpected renderer encountered.
+2025-05-12 22:48:51,648 - pytube.contrib.search - WARNING - Renderer name: dict_keys(['lockupViewModel'])
+2025-05-12 22:48:51,649 - pytube.contrib.search - WARNING - Search term: hello world
+2025-05-12 22:48:51,651 - pytube.contrib.search - WARNING - Please open an issue at https://github.com/pytube/pytube/issues and provide this log output.
+2025-05-12 22:48:51,652 - pytube.contrib.search - WARNING - Unexpected renderer encountered.
+2025-05-12 22:48:51,652 - pytube.contrib.search - WARNING - Renderer name: dict_keys(['lockupViewModel'])
+2025-05-12 22:48:51,659 - pytube.contrib.search - WARNING - Search term: hello world
+2025-05-12 22:48:51,660 - pytube.contrib.search - WARNING - Please open an issue at https://github.com/pytube/pytube/issues and provide this log output.
+2025-05-12 22:48:52,410 - __main__ - ERROR - Search error: HTTP Error 400: Bad Request
+2025-05-12 22:48:52,440 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:48:52] "GET /search?query=hello+world HTTP/1.1" 200 -
+2025-05-12 22:48:53,920 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:48:53] "GET / HTTP/1.1" 200 -
+2025-05-12 22:55:49,598 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:55:49] "GET / HTTP/1.1" 200 -
+2025-05-12 22:56:20,362 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:56:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-12 22:56:20,404 - __main__ - INFO - Attempting to fetch video info with pytube: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 22:56:20,405 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:56:20,406 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 22:56:49,012 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:56:49] "GET /select_quality?url=https://youtu.be/dzNyNS_kvn8?si%3D-lZo4rxAaOcKG-Bo HTTP/1.1" 200 -
+2025-05-12 22:57:22,495 - __main__ - INFO - Attempting to fetch video info with pytube: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 22:57:22,496 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:57:22,497 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 22:57:45,440 - __main__ - ERROR - OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-qrst1*******************************1234. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-05-12 22:57:45,454 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:57:45] "POST /api/summarize HTTP/1.1" 200 -
+2025-05-12 22:58:59,462 - __main__ - INFO - Attempting to fetch video info with pytube: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 22:58:59,464 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 22:58:59,465 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 22:59:20,645 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:59:20] "GET /select_quality?url=https://youtu.be/dzNyNS_kvn8?si%3D-lZo4rxAaOcKG-Bo HTTP/1.1" 200 -
+2025-05-12 22:59:23,739 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 22:59:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-12 23:00:18,244 - __main__ - INFO - Attempting to fetch video info with pytube: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 23:00:18,245 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 23:00:18,247 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 23:00:38,837 - __main__ - ERROR - OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-qrst1*******************************1234. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-05-12 23:00:38,847 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 23:00:38] "POST /api/summarize HTTP/1.1" 200 -
+2025-05-12 23:01:10,799 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.233.189:5000
+2025-05-12 23:01:10,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 23:01:10,803 - werkzeug - INFO -  * Restarting with stat
+2025-05-12 23:01:14,103 - werkzeug - WARNING -  * Debugger is active!
+2025-05-12 23:01:14,119 - werkzeug - INFO -  * Debugger PIN: 126-799-812
+2025-05-12 23:01:16,273 - __main__ - INFO - Attempting to fetch video info with pytube: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 23:01:16,274 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 23:01:16,275 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 23:01:43,730 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 23:01:43] "GET /select_quality?url=https://youtu.be/dzNyNS_kvn8?si%3D-lZo4rxAaOcKG-Bo HTTP/1.1" 200 -
+2025-05-12 23:01:54,624 - __main__ - INFO - Attempting to fetch video info with pytube: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 23:01:54,624 - __main__ - WARNING - Pytube error: YouTube.__init__() got an unexpected keyword argument 'headers'
+2025-05-12 23:01:54,625 - __main__ - INFO - Attempting to fetch video info with yt-dlp: https://youtu.be/dzNyNS_kvn8?si=-lZo4rxAaOcKG-Bo
+2025-05-12 23:02:18,171 - __main__ - ERROR - OpenAI API error: {
+    "error": {
+        "message": "Incorrect API key provided: sk-S0ZDI***************************************ICAg. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2025-05-12 23:02:18,175 - werkzeug - INFO - 127.0.0.1 - - [12/May/2025 23:02:18] "POST /api/summarize HTTP/1.1" 200 -

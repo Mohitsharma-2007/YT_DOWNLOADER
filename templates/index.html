@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Downloader Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .card { border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .preview-thumbnail { max-width: 300px; border-radius: 10px; }
+        .tab-content { padding-top: 20px; }
+        .feature-icon { font-size: 2rem; color: #6c5ce7; margin-bottom: 15px; }
+    </style>
+</head>
+<body class="gradient-bg">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card p-4">
+                    <h1 class="text-center mb-4">🎥 YT Downloader Pro</h1>
+                    
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" id="downloadTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="url-tab" data-bs-toggle="tab" 
+                                    data-bs-target="#url-content" type="button" role="tab" 
+                                    aria-controls="url-content" aria-selected="true">
+                                <i class="fas fa-link me-2"></i>URL
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="search-tab" data-bs-toggle="tab" 
+                                    data-bs-target="#search-content" type="button" role="tab" 
+                                    aria-controls="search-content" aria-selected="false">
+                                <i class="fas fa-search me-2"></i>Search
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="downloadTabsContent">
+                        <!-- URL Tab -->
+                        <div class="tab-pane fade show active" id="url-content" role="tabpanel" aria-labelledby="url-tab">
+                            <form method="POST" class="mb-4">
+                                <div class="input-group">
+                                    <input type="url" name="url" class="form-control form-control-lg" 
+                                           placeholder="Paste YouTube URL here..." required>
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-download me-2"></i>Download
+                                    </button>
+                                </div>
+                                <div class="form-text text-muted mt-2">
+                                    Works with video and playlist URLs from YouTube
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <!-- Search Tab -->
+                        <div class="tab-pane fade" id="search-content" role="tabpanel" aria-labelledby="search-tab">
+                            <form method="POST" class="mb-4">
+                                <div class="input-group">
+                                    <input type="text" name="search_query" class="form-control form-control-lg" 
+                                           placeholder="Search YouTube videos..." required>
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-search me-2"></i>Search
+                                    </button>
+                                </div>
+                                <div class="form-text text-muted mt-2">
+                                    Search for videos directly without having the URL
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <!-- Features -->
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <div class="feature-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h5>HD Videos</h5>
+                            <p class="text-muted small">Download in highest quality</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h5>Audio Only</h5>
+                            <p class="text-muted small">Extract audio from videos</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-icon">
+                                <i class="fas fa-list"></i>
+                            </div>
+                            <h5>Playlists</h5>
+                            <p class="text-muted small">Download entire playlists</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4 text-white">
+                    <p class="small">
+                        <i class="fas fa-code me-2"></i>YT Downloader Pro v1.0
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
